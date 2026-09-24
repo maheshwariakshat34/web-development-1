@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Layout</title>
+        <style>
+            .container{
+                height:500px;
+                display:grid;
+                grid-template-columns:200px 1fr;
+                grid-template-rows:80px 1fr 60px;
+                grid-template-areas:"header header"
+                "sidebar main"
+                "footer footer";
+
+            }
+            header{
+                grid-area:header;
+                border:2px solid red;
+            }
+            aside{
+                grid-area:sidebar;
+                border:2px solid red;
+            }
+            main{
+                grid-area:main;
+                border:2px solid red;
+            }
+            footer{
+                grid-area:footer;
+                border:2px solid red;
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>Header</header>
+            <aside>SideBar</aside>
+            <main>Main</main>
+            <footer>Footer</footer>
+        </div>
+
+    </body>
+</html>

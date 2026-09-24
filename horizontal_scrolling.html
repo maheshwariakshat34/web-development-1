@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+        <style>
+            *{
+                margin:0;
+                padding:0;
+            }
+            .slider{
+                width:100vw;
+                display:inline-flex;
+                overflow:scroll;
+                scrollbar-width:none;
+
+            }
+            .item{
+                min-width:100vw;
+                height:600px;
+                position:sticky;
+                left:0px;
+                font-size:50px;
+                color:white;
+                -webkit-text-stroke-width:2px;
+                text-align:center;
+            }
+        
+   
+</style>
+
+    </head>
+    <body>
+    <div class="slider">
+    <div class="item" style="background-color:aqua">Box 1</div>
+    <div class="item"  style="background-color:green">Box 2</div>
+    <div class="item"  style="background-color:red">Box 3</div>
+    <div class="item"  style="background-color:blue">Box 4</div>
+    <div class="item"  style="background-color:black">Box 5</div>
+</div>
+    </body>
+</html>

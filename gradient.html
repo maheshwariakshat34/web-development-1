@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Web Page</title>
+        <style>
+            .Box1,.Box2,.Box3{
+                height:300px;
+                width:300px;
+
+            }
+
+            .container{
+                border:5px solid black;
+                display:flex;
+            }
+            .Box1{
+                background:linear-gradient(to bottom,orange,white 50%,green );
+            }
+            .Box2{
+                background:radial-gradient(red,black);
+            }
+            .Box3{
+               background:conic-gradient(red 120deg,yellow 120deg 240deg,blue 240deg);
+
+            }
+            button{
+                background:linear-gradient(to left ,green,grey,red);
+                color:white;
+            }
+            .Box4{
+                height:200px;
+                width:600px;
+                background:linear-gradient()
+            }
+            .sphere{
+                height:200px;
+                width:200px;
+                border-radius:50%;
+                    background: radial-gradient(
+                    circle at 30% 30%,
+                    lightblue,
+                    blue
+    ); 
+    .donut {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+
+    background: conic-gradient(
+        blue 0% 60%,
+        green 60% 85%,
+        red 85% 100%
+    );
+}
+            }
+            
+        </style>
+
+    </head>
+    <body>
+        <div class="container">
+        <p>Linear Gradient</p>
+        <div class="Box1"></div>
+        <p>Radial Gradient</p>
+        <div class="Box2"></div>
+        <p>Conic Gradient</p>
+        <div class="Box3"></div>
+        </div>
+        <button type="submit"> Click to Submit</button>
+        <div class="sphere"></div>
+        <div class="donut"></div>
+        
+    </body>
+</html>

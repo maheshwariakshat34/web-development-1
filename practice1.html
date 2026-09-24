@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Page</title>
+        <style>
+            /*enabled ,disabled,valid,invalid,required,,optional,in-range,checked,out-of-range,read-only,read-write,placeholder-shown*/
+            input{
+                margin:3px;
+                border-width:0 0 2px 0;
+                border-color:blue;
+            }
+            input:required{
+                background-color:red;
+                
+            }
+            input:optional{
+                background-color:green;
+            }
+            input:out-of-range{
+                font-style:italic;
+            }
+            input:read-only{
+               
+                color:red;
+            }
+            input:read-write{
+                color:blue;
+                
+            }
+            
+
+
+
+
+            
+            
+        </style>
+    </head>
+    <body>
+        <form>
+            <input type="text" placeholder="First Name" value="Mr." required><br> <br>
+            <input type="text" placeholder="Middle Name" /><br> <br>
+            <input type="text" placeholder="Last Name"/><br> <br>
+            <input type="number" min="18" max="100" placeholder="Age" required > 
+            <button type="submit">Submit  </button>           
+        </form>
+    </body>
+</html>

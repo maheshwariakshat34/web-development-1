@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flexbox</title>
+        <style>
+            .container{
+                display:flex;
+                flex-direction:row;
+                outline:1px solid black;
+                font-size:30px;
+                flex-wrap:wrap;
+            }
+            .container > div{
+                outline:1px dashed black;
+                flex-basis:100px;
+                height:100px;
+                justify-content:center;
+                align-items:center;
+            }
+            .container> div:nth-child(odd){
+                background-color:lightseagreen;
+            }
+            .item1{
+                flex-grow:3;
+                flex-shrink:3;
+            }
+            .item1,.item2,.item3,.item4,.item5{
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+            .item2,.item3,.item4,.item5{
+                flex:0 1 100px;
+            }
+            .item1{
+                flex:1 0 150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item1">Item 1</div>
+            <div class="item2">Item 2</div>
+            <div class="item3">Item 3</div>
+            <div class="item4">Item 4</div>
+            <div class="item5">Item 5</div>
+        </div>
+</html>
