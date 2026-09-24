@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+            .navbar{
+                width:50%;
+                height:300px;
+                display:flex;
+                align-items:center;
+                gap:30px;
+                
+                justify-content:space-evenly;
+            }
+            .logo{
+                order:3;
+                flex-grow:0;
+                align-self:center;
+
+            }
+            .home{
+                order:1
+
+
+            }
+            .about{
+                order:2;
+                flex-shrink:200px;
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="navbar">
+            <div class="logo" style="background-color:blue">Logo</div>
+            <div class="home" style="background-color:blueviolet">Home</div>
+            <div class="about" style="background-color:blue">About</div>
+        </div>
+    </body>
+</html>

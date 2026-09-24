@@ -1,0 +1,24 @@
+
+
+body{
+    font-size:larger;
+}  
+p{
+    color:purple!important;
+}
+.gray{
+    color:grey;
+}
+#second{
+    font-style:italic;
+}
+h1,h2{
+    color:blue;
+}
+p span{
+    color:green;
+    text-transform:uppercase;
+}
+.highlight{
+   
+}

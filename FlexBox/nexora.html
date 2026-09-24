@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSite</title>
+        <style>
+            *{
+                padding:0;
+                box-sizing:border-box;
+                margin:0;
+            }
+            .navbar{
+                width:100%;
+                height:70px;
+                display:flex;
+                align-items:center;
+                background-color:aqua;
+                justify-content:space-around;
+                border-radius:6px;
+                font-size:1.5rem;
+                
+            }
+            .nav-links{
+
+                display:flex;
+                gap:40px
+            }
+            .btn{
+                color:white;
+                background-color:green;
+                width:100px;
+                height:30px;
+                border:1px  solid black;
+                border-radius:5px;
+            }
+            .logo{
+                display:flex;
+                gap:15px;
+                align-items:center;
+            }
+            .logo-icon{
+                width:40px;
+                height:40px;
+                background:green;
+                text-align:center;
+                justify-content:center;
+                align-items:center;
+                display:flex;
+              
+                border-radius:50px;
+            }
+            .hero{
+                box-sizing:border-box;
+                display:flex;
+                justify-content:space-between;
+                align-items:center;
+                background-color:azure;
+                height:250px;
+                padding:60px 80px;
+                
+            }
+            .hero-img{
+               width: 45%;
+               height:250px;
+               background-color: #dff7ed;
+               border-radius: 20px;
+            }
+            h1 span{
+                display:block;
+                color:green;
+            }
+            .hero-btn{
+                display:flex;
+                gap:15px;
+                margin-top:30px;
+                
+            }
+            .btn1{
+                margin-right:20px;
+                margin-left:10px;
+                color:white;
+                background-color:green;
+                width:100px;
+                height:30px;
+                border:1px  ;
+                border-radius:5px;
+            }
+            .btn2{
+                background-color:white;
+                color:green;
+                border:1px solid green;
+            }
+           .description {
+                width: 450px;
+                font-size: 18px;
+                line-height: 1.6;
+                margin: 20px 0;
+                margin-top:25px;
+            }
+            .hero-content{
+                width:50%;
+            }
+            .hero-content h1{
+                font-size:48px;
+                margin-bottom:20px;
+                margin:0;
+
+            }
+            .hero-img img{
+                margin-top:5px;
+                width:100%;
+                height:100%;
+                object-fit:cover;
+                border-radius:15px;
+            }
+            .heading{
+                text-align:center;
+                font-size:28px;
+                margin-top:15px;
+               
+                
+            }
+            .container{
+                display:flex;
+                width:100%;
+                justify-content:space-evenly;
+                align-items:center;
+                box-sizing:border-box;
+               
+            }
+            .card-icon{
+                
+                width:50px;
+                height:50px;
+                background-color:rgb(19, 185, 19);
+                border-radius:50%;
+                margin:20px auto;
+                text-align:center;
+                line-height:50px;
+                font-size:25px;
+
+            }
+            .box{
+                width:300px;
+                height:170px;
+                background-color:azure;
+                border-radius:30px;
+            }
+            .box1 h3{
+                text-align:center;
+                margin-top:20px;
+                
+            }
+            .box1 p{
+                text-align:center;
+                
+
+            }
+            .box2 h3{
+                text-align:center;
+                margin-top:20px;
+
+            }
+            .box2 p{
+                text-align:center;
+
+            }
+            .box3 h3{
+                text-align:center;
+                margin-top:20px;
+            }
+            .box3 p{
+                text-align:center;
+            }
+            .box4 h3{
+                text-align:center;
+                margin-top:20px;
+            }
+            .box4 p{
+                text-align:center;
+            }
+            .bottom{
+                display:flex;
+                justify-content:space-around;
+                background-color: #1f2937;
+                padding:20px;
+                height:170px;
+                width:100%;
+                margin-top:20px;
+                color:white;
+
+            }
+            .p1{
+                text-align:center;
+                margin-top:15px;
+                
+            }
+            .footer-links{
+                display:flex;
+                flex-direction:column;
+                gap:10px;
+            }
+            
+            .footer-services{
+                display:flex;
+                flex-direction:column;
+                gap:10px;
+
+            }
+            .footer-contact{
+                display:flex;
+                flex-direction:column;
+                gap:10px;
+            }
+            .bottom span{
+                font-size:30px;
+            }
+            .copyright {
+           width: 100%;
+           height: 50px;
+           background-color: #1f2937;
+           color: white;
+            display: flex;
+           justify-content: center;
+         align-items: center;
+             border-top: 1px solid gray;
+}
+            
+            
+            
+
+        </style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="logo"> 
+                <div class="logo-icon">N</div>
+                <span>Nexora</span></div>
+            <div class="nav-links">
+                <a>Home</a>
+                <a>About</a>
+                <a>Services</a>
+                <a>Portfolio</a>
+                <a>Contact</a>
+            </div>
+                <button class="btn">Get Started</button>
+             </nav>
+
+             <section class="hero">
+                <div class="hero-content">
+                    <h1>Build   Your Dream <span >With Us</span></h1>
+
+                    <p class="descriptions">
+                        We help you build modern and responsive websites<br>
+                        that look amazing on every device.
+                    </p>
+                    <div class="hero-btn">
+                        <button class="btn1">Get Started</button>
+                        <button class="btn1 btn2">Learn More</button>
+                    </div>
+
+                </div>
+                <div class="hero-img">
+                  <img  src="img1.jpg"  alt="Hero Image">
+                </div>
+             </section>
+
+             <div class="heading"><h3>Our Services</h3></div>
+
+             <div class="container">
+                <div class="box box1" ><div class="card-icon">💻</div><h3>Web Design</h3><p>We create beautiful and <br>modern designs.</p></div>
+                <div class="box box2" ><div class="card-icon">⚙️</div><h3>Web Development</h3> <p>We build fast <br>and responsive websites.</p></div>
+                <div class="box box3" ><div class="card-icon">📱</div><h3>Responsive Design</h3><p>We make sure your website looks great on all devices.</p></div>
+                <div class="box box4" ><div class="card-icon">🚀</div><h3>SEO Optimization</h3><p>We help you rank higher and grow your business.</p></div>
+            </div>
+            <footer class="bottom">
+                <div>
+                <div class="logo"> 
+                <div class="logo-icon">N</div>
+                <span>Nexora</span></div>
+                <p class="p1">We are a team of creative people<br> build amazing websites.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <a>Home</a>
+                    <a>About</a>
+                    <a>Contact</a>
+                </div>
+                <div class="footer-services">
+        <h3>Services</h3>
+        <a>Web Design</a>
+        <a>Development</a>
+        <a>SEO</a>
+    </div>
+
+    <div class="footer-contact">
+        <h3>Contact</h3>
+        <p>Email: example@gmail.com</p>
+        <p>Phone: 1234567890</p>
+        
+    </div>
+    </footer>
+    <div class="copyright">
+        © 2026 Nexora
+    </div>
+             
+    </body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox</title>
+        <style>
+            .container{
+                width:650px;
+                display:flex;
+                margin:0 auto;
+                justify-content:center;
+                flex-wrap:wrap;
+                align-items: center;
+                gap:10px;
+            
+                 }
+            .box{
+                width:300px;
+                height:120px;
+             }
+             .box1{
+                flex-shrink:1;
+             }
+             .box2{
+                flex-shrink:0;
+             }
+             .box5{
+                flex-grow:1;
+             }
+             
+
+        </style>
+    </head>
+    <body>
+    <div class="container">
+        <div class=" box box1" style="background-color:aquamarine">Box 1</div>
+<div class="box box2" style="background-color:green">Box 2</div>
+<div class="box box3" style="background-color:blue">Box 3</div>
+<div class="box box4" style="background-color:pink">Box 4</div>
+<div class="box box5" style="background-color:blue">Box 5</div>
+<div class="box box6" style="background-color:red">Box 6</div>
+<div class="box box7" style="background-color:black">Box 7</div>
+</div>
+    </body>
+</html>

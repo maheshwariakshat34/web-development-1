@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web Page</title>
+        <style>
+            .article{
+                width:900px;
+                margin:30px auto;
+                border:1px solid black;
+                padding:10px;
+                column-count:3;
+                column-gap:40px;
+                column-rule:1px solid grey;
+            }
+            .article h1{
+                column-span:all;
+                text-align:center;
+            }
+            
+            .subtitle{
+                column-span:all;
+                text-align:center;
+                margin-bottom:20px;
+                font-style:italic;
+            }
+
+            
+            img{
+                width:100%;
+                height:180px;
+                object-fit:cover;
+                display:block;
+            }
+            .caption {
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+    margin: 8px 0 15px;
+}
+     input[type="email"] {
+    border: 2px solid green;
+}
+input:focus-visible{
+     outline: 3px solid blue;
+}
+
+p:first-of-type {
+    color: red;
+}
+.box:empty{
+    background-color:yellow;
+}
+button:disabled{
+    opacity:0.5;
+}
+input:enabled {
+    border: 1px solid green;
+}
+input:required {
+    border-left: 4px solid red;
+}
+    .card:has(button) {
+    border: 2px solid green;
+}        
+
+
+        </style>
+    </head>
+    <body>
+        <div class="article">
+            <h1>The Beauty of Nature</h1>
+             <p class="subtitle">
+            Exploring the peaceful and beautiful world around us
+        </p>
+         <img src="natureimg1.avif" alt="Beautiful Nature">
+         <p class="caption">
+            A peaceful view of nature
+        </p>
+
+        <p>
+            Nature is one of the most beautiful parts of our world.
+            Mountains, rivers, forests and oceans create amazing
+            landscapes that attract people from everywhere.
+        </p>
+
+        <p>
+            Forests provide homes for many animals and birds.
+            They also help keep the environment healthy and provide
+            fresh air for living beings.
+        </p>
+
+        <p>
+            Rivers and lakes are important sources of water.
+            They support plants, animals and human communities.
+            Their peaceful surroundings also make them popular places
+            for relaxation.
+        </p>
+
+        <p>
+            Mountains offer breathtaking views and are home to many
+            different species. Their natural beauty makes them an
+            important part of our environment.
+        </p>
+
+        <p>
+            Protecting nature is everyone's responsibility.
+            Small actions such as reducing waste, planting trees
+            and saving water can help protect our environment.
+        </p>
+
+        <blockquote>
+            "Nature is not a place to visit. It is home."
+        </blockquote>
+
+    
+        </div>
+
+    <input type="text">
+<input type="email">
+<input type="password">
+
+<div>
+    <h2>Heading</h2>
+    <p>First</p>
+    <p>Second</p>
+</div>
+
+<div class="box"></div>
+
+<button disabled>hello</button>
+
+<input type="email" required>
+    <div class="card">
+    <h2>Product</h2>
+   
+</div>    
+
+    </body>
+</html>

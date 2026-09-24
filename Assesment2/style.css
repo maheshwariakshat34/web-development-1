@@ -1,0 +1,16 @@
+.title{
+    color:blue;
+    text-align:center;
+}
+.info{
+    color:grey;
+    font-size:20px;
+}
+.btn{
+    background-color:green;
+    color:white;
+    padding:10px 40px;
+    border:none;
+    border-radius:5px;
+    
+}
