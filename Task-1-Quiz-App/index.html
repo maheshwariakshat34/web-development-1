@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuizAPP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz-container" id="start-screen">
+        <h1>Quiz Arena</h1>
+        <p>Test your knowledge by giving the quiz.</p>
+
+        <div class="quiz-info">
+            <p>Total Questions: 25</p>
+            <p>Time per Question: 30 seconds</p>
+            <p>Your Score: 0</p>
+        </div>
+
+        <button id="start-btn">Start</button>
+    </div>
+
+    <div class="quiz-container" id="quiz-screen" hidden>
+
+        <div class="quiz-info">
+            <p id="progress">Question 1/25</p>
+            <p id="score">Score: 0</p>
+        </div>
+
+        <h2 id="question">What does HTML stand for?</h2>
+
+        <div id="options">
+            <button class="option">Hyper Text Markup Language</button>
+            <button class="option">High Text Machine Language</button>
+            <button class="option">Home Tool Markup Language</button>
+            <button class="option">Hyperlinks Text Mark Language</button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
